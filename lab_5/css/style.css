@@ -1,0 +1,39 @@
+@import url(root.css);
+@import url(fonts.css);
+h1{
+	color: red;
+	font-family: 'Roboto Flex', sans-serif;
+	font-weight: 900;
+	font-size: 44px;
+	text-align: center;
+}
+h2{
+	text-align: center;
+	font-family: 'Roboto Flex', sans-serif;
+	font-weight: 700;
+	font-size: 36px;
+}
+h3{
+	text-align: center;
+	font-family: 'Roboto Flex', sans-serif;
+	font-weight: 500;
+	font-size: 28px;
+	color: var(--main-color);
+}
+.title{
+	color: green;
+}
+.list{
+	background: var(--main-color);
+}
+.list li{
+	color: var(--text-color);
+}
+li{
+	font-family: 'Bodoni 72', sans-serif;
+}
+.list_image{
+	background: url(/img/bg.jpg) no-repeat center center ;
+	background-size: cover;
+	color: var(--text-color);
+}
